@@ -28,7 +28,7 @@ import {
   saveEvaluationRecord,
 } from '@/lib/evaluations'
 
-const API_URL = 'http://127.0.0.1:8000'
+const API_URL = 'https://tender-evaluation.onrender.com'
 
 // ── Custom File Upload Zone ──────────────────────────────────────────────────
 function FileUploadZone({
