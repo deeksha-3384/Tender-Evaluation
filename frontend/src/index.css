@@ -57,3 +57,18 @@
     @apply bg-background text-foreground antialiased;
   }
 }
+
+@media print {
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-report-root {
+    display: block !important;
+  }
+}
